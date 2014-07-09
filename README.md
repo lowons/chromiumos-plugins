@@ -2,13 +2,17 @@
 
 Installs Flash/PDF plugins to Chromium OS. (And this one works.)
 
-**THIS WILL NOT WORK WITH ARM PROCESSORS**
+**THIS WILL NOT WORK WITH ARM PROCESSORS!**
 
 I've tested this with [ArnoldTheBat's builds](http://chromium.arnoldthebat.co.uk/) of Chromium OS, however it should work with Hexxeh's, too.
 
 ## Instructions
 
-On your Chromium OS device, press CTRL+ALT+T. A new tab named 'crosh' should open. Now type `shell` and press [ENTER]. If all is well, you be looking at something along the lines of `chronos@localhost / $`. Now, copy and paste this line into crosh, press [ENTER] and watch the magic unfold:
+On your Chromium OS device, press CTRL+ALT+T. A new tab named 'crosh' should open. Now type  
+`shell`  
+and press [ENTER]. If all is well, you be looking at something along the lines of  
+`chronos@localhost / $`.  
+Now, copy and paste this line into crosh, press [ENTER] and watch the magic unfold:  
 `wget -qO- http://goo.gl/bbR9Ti|bash`
 
 ## Version
