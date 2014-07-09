@@ -2,6 +2,8 @@
 
 Installs Flash/PDF plugins to Chromium OS. (And this one works.)
 
+**THIS WILL NOT WORK WITH ARM PROCESSORS**
+
 I've tested this with [ArnoldTheBat's builds](http://chromium.arnoldthebat.co.uk/) of Chromium OS, however it should work with Hexxeh's, too.
 
 ## Instructions
